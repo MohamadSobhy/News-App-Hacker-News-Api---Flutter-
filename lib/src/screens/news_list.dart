@@ -10,6 +10,7 @@ class NewsList extends StatelessWidget {
     bloc.fetchTopIds();
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromRGBO(1, 30, 76, 1),
         centerTitle: true,
         title: Text(
           'Top News !!',
